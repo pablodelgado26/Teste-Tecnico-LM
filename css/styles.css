@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 50rem;
+    z-index: 1;
+    border: black 1px solid;
+    border-radius: 40px;
+    margin-top: 200px;
+}
+
+.esquerdo {
+    height: 100%;
+    width: 35%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 40px 0 0 40px;
+}
+
+.direita {
+    height: 100%;
+    width: 65%;
+    background-color: #ff0000;
+    display: flex;
+    border-radius: 0 40px 40px 0;
+}
+
+.circulo1 {
+    background: linear-gradient(to top, rgb(255, 251, 0), rgb(255, 123, 0));
+    border-radius: 300px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+}
+
+.circulo2 {
+    background: linear-gradient(to top, rgb(132, 0, 165), rgb(225, 0, 255));
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    left: 800px;
+    bottom: 600px;
+}
+
+.circulo3 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
+    border-radius: 300px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 850px;
+    bottom: 200px;
+}
+
+.circulo4 {
+    background: linear-gradient(to bottom, rgb(255, 0, 128), rgb(255, 27, 152));
+    border-radius: 300px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 1300px;
+    bottom: 300px;
+}
