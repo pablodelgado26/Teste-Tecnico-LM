@@ -14,12 +14,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30rem;
-    width: 50rem;
+    height: 40rem;
+    width: 70rem;
     z-index: 1;
     border: black 1px solid;
     border-radius: 40px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .esquerdo {
@@ -29,6 +29,69 @@ body {
     display: flex;
     justify-content: flex-start;
     border-radius: 40px 0 0 40px;
+}
+
+.tituloEsquerda h1{
+    font-size: 4rem;
+    margin-left: 2rem;
+    margin-top: 7rem;
+}
+
+.linha {
+    width: 80px;
+    height: 3px;
+    background-color: #000;
+    margin-left: 5.5rem;
+}
+
+.buttonCriarConta {
+    margin-left: 4rem;
+    margin-top: 3rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #e4e4e4;
+    height: 55px;
+    width: 250px;
+}
+
+.buttonCriarConta:hover {
+    background-color: #b9b9b9;
+    transition: calc(0.3s);
+}
+
+.buttonCriarConta h2 {
+    color: #000;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.redes-itens {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin-right: 10px;
+    border: none;
+}
+
+.redes-itens:hover {
+    background-color: #1f2929;
+    transition: calc(0.3s);
+}
+
+.redes-itens img {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
 }
 
 .direita {
