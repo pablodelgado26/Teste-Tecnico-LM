@@ -100,6 +100,26 @@ body {
     background-color: #ff0000;
     display: flex;
     border-radius: 0 40px 40px 0;
+    flex-direction: row-reverse;
+}
+
+.botaoLogar {
+    height: 10%;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 7%;
+    border-radius: 40px;
+    border: none;
+}
+
+.botaoLogar:hover {
+    background-color: #1f2929;
+    transition: calc(0.3s);
+}
+
+.direita h1 {
+    display: flex;
+    margin-top: 30%;
 }
 
 .circulo1 {
